@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test Force</fullName>
+    <types>
+        <members>Test_force</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Invoice__c.Additional_Discount__c</members>
+        <members>Invoice__c.Amount__c</members>
+        <members>Invoice__c.Date__c</members>
+        <members>Invoice__c.Description__c</members>
+        <members>Invoice__c.Discount__c</members>
+        <members>Invoice__c.Quantity__c</members>
+        <members>Invoice__c.Sum_up__c</members>
+        <members>Invoice__c.Total_Amount__c</members>
+        <members>Invoice__c.Total__c</members>
+        <members>Product__c.Date__c</members>
+        <members>Product__c.Description__c</members>
+        <members>Product__c.Invoice_Name__c</members>
+        <members>Product__c.Product_Id__c</members>
+        <members>Product__c.Product_Name__c</members>
+        <members>Product__c.Unit_Price__c</members>
+        <members>new__c.Additional_Discount__c</members>
+        <members>new__c.Amount__c</members>
+        <members>new__c.DOB__c</members>
+        <members>new__c.Date__c</members>
+        <members>new__c.Description__c</members>
+        <members>new__c.Discount__c</members>
+        <members>new__c.Quantity__c</members>
+        <members>new__c.Total_Amount__c</members>
+        <members>new__c.Total__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Invoice__c</members>
+        <members>Product__c</members>
+        <members>new__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Invoice__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Invoice__c-Invoice Layout</members>
+        <members>Product__c-Product Layout</members>
+        <members>new__c-new Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Invoice__c.All</members>
+        <members>new__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>31.0</version>
+</Package>
